@@ -15,7 +15,9 @@
 [“Russia”, “Denmark”, “Kazan”] → []
 
 
-============
+
+Код программы:
+```cs
 def filter_strings():
     input_array=input("Введите массив сток разделенных пробелом").split()
     filtered_array=[]
