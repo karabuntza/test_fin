@@ -15,6 +15,8 @@
 [“Russia”, “Denmark”, “Kazan”] → []
 
 > ![Block-diagram](пнг.png)
+
+<
 Код программы:
 ```cs
 def filter_strings():
