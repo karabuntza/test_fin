@@ -14,8 +14,7 @@
 [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 [“Russia”, “Denmark”, “Kazan”] → []
 
-> ![Block-diagram](123123.drawio)
-
+> ![Block-diagram](пнг.png)
 Код программы:
 ```cs
 def filter_strings():
