@@ -13,6 +13,15 @@
 [“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
 [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 [“Russia”, “Denmark”, “Kazan”] → []
-============
 
-    pip install apache-log-parser
+
+============
+def filter_strings():
+    input_array=input("Введите массив сток разделенных пробелом").split()
+    filtered_array=[]
+    for string in input_array:
+        if len(string) <=3:
+            filtered_array.append(string)
+    return filtered_array
+filtered_strings = filter_strings()
+print(filtered_strings)
